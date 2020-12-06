@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	border: 0;
+}
+img:hover {border-radius: 20px;}
+nav a:hover {border-color: rgb(26, 54, 109);}
+aside a:hover {color:rgb(64, 64, 196); background-color: rgba(123, 150, 185, 0.692);}
+body {
+	background-color: rgba(0, 0, 0, 0.678);
+}
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+/*  header  */
+header {
+	background-color: rgb(219, 222, 250);
+}
+header h1 {
+	padding: 20px;
+	text-align: center;
+	color: rgb(23, 11, 66);
+}
+header img {
+	width: 100%;
+	vertical-align: bottom;
+}
+
+/*  nav  */
+nav {
+	background-color: rgba(194, 194, 194, 0.664);
+}
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+}
+
+/*  main  */
+main {
+	display: flex;
+}
+
+/*  aside */
+aside {
+	width: 25%;
+	padding: 20px;
+	background-color: rgba(255, 254, 255, 0.767);
+}
+
+/*  aside izquierda  */
+aside h3 {
+	padding: 20px 0px;
+}
+aside a {
+	padding: 5px 0px;
+	display: block;
+	color: rgb(24, 24, 109);
+}
+
+/*  aside derecha  */
+aside img {
+	width: 70%;
+	margin: 20px auto;
+	display: block;
+}
+
+/*  section  */
+section {
+	width: 50%;
+	padding: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: rgba(183, 203, 247, 0.664);
+}
+section figure {
+	width: 30%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}
+section figure img {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+section figure figcaption {
+	margin: 10px;
+	text-align: center;
+}
+
+/*  footer  */
+footer {
+	padding: 10px;
+	text-align: center;
+	background-color:rgba(194, 194, 194, 0.664);
+}
+footer p {
+	margin-bottom: 10px;
+	color: rgb(0, 0, 0);
+}
